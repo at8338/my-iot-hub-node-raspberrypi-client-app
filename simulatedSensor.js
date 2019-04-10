@@ -16,7 +16,7 @@ Sensor.prototype.read = function (callback) {
   callback(null, {
     temperature: random(20, 30),
     humidity: random(60, 80),
-    AmpData: random(60, 80)
+    AmpData: random(40, 50)
   });
 }
 
